@@ -46,8 +46,13 @@
     -webkit-transform:rotateX(90deg) translate3d(50px,-100px,22px);
 }
 
-.stacked {
+.stacked .card {
     -webkit-transform:rotateX(90deg) translate3d(50px,-100px,22px);
+	-webkit-transition: -webkit-transform 3s ease-in;
+}
+
+.scattered .card {
+	-webkit-transition: -webkit-transform 3s ease-in;
 }
 
 .scattered .a {
