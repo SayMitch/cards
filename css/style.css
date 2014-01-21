@@ -260,6 +260,10 @@
 
 /* stacked */
 
+.stacked .card {
+	-webkit-transform: rotateX(90deg);
+}
+
 .stacked .a {
     -webkit-transform:translate3d(0px, 0px, 0px);
 }
