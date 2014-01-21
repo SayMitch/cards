@@ -5,13 +5,9 @@
 // 		},3000);
 // 	});
 // }
+
+
 function stack() {
-	singleCard = document.getElementsByClassName('x2');
-
-	$('#stack-button').click(function(){
-		$(singleCard).animate({
-			
-		}, 3000);
-	});
-
+	event.preventDefault();
+	$('#container').toggleClass('stacked', 'scattered');
 }
